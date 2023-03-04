@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mark Six Game</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+		<h1>Mark Six Game</h1>
+		<p class="ask">Input six numbers between 1 and 49:</p>
+		<div class="input">
+			<input type="number" id="num1" min="1" max="49">
+			<input type="number" id="num2" min="1" max="49">
+			<input type="number" id="num3" min="1" max="49">
+			<input type="number" id="num4" min="1" max="49">
+			<input type="number" id="num5" min="1" max="49">
+			<input type="number" id="num6" min="1" max="49">
+		</div>
+		<button onclick="draw()">Draw and see the result</button>
+		<p id="result"></p>
+	</div>
+    <script src="index.js"></script>
+</body>
+</html>

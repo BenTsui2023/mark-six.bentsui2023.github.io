@@ -1,0 +1,44 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	text-align: center;
+}
+
+.input {
+	margin-bottom: 30px;
+}
+
+.ask {
+    font-size: 18px;
+}
+input {
+	width: 40px;
+	margin-right: 20px;
+	padding: 10px;
+	font-size: 18px;
+	text-align: center;
+}
+body {
+    background-color:antiquewhite; 
+}
+
+button {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+button:hover {
+	background-color: #8e653e;
+}
+
+#result {
+	font-size: 24px;
+	font-weight: bold;
+    color: blue;
+}
